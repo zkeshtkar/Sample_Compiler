@@ -14,5 +14,6 @@ public abstract class DSCP {
         this.isValid = isValid;
     }
 
-   // public abstract SymbolTableHandler getType();
+    public abstract Type getType();
+    public abstract void setType(Type type);
 }

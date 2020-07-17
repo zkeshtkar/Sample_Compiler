@@ -1,4 +1,4 @@
-package semantic.expression;
+package semantic.AST.expression;
 
 public abstract class BaseExp extends Expression {
     protected Expression firstop;

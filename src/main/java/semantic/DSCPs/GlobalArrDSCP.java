@@ -2,7 +2,7 @@ package semantic.DSCPs;
 
 import lombok.Data;
 import org.objectweb.asm.Type;
-import semantic.expression.Expression;
+import semantic.AST.expression.Expression;
 
 import java.util.List;
 
@@ -23,8 +23,13 @@ public class GlobalArrDSCP extends GlobalDSCP {
         this.dimNum = dimNum;
     }
 
-//    @Override
-//    public SymbolTableHandler getType() {
-//        return null;
-//    }
+    @Override
+    public Type getType() {
+        return type;
+    }
+
+    @Override
+    public void setType(Type type) {
+            this.type = type ;
+    }
 }

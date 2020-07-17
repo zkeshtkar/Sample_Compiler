@@ -12,8 +12,13 @@ public class GlobalVarDSCP extends GlobalDSCP {
         this.constant = constant;
     }
 
-//    @Override
-//    public SymbolTableHandler getType() {
-//        return null;
-//    }
+    @Override
+    public Type getType() {
+        return type;
+    }
+
+    @Override
+    public void setType(Type type) {
+        this.type = type;
+    }
 }

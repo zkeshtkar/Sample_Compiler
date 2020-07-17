@@ -1,6 +1,6 @@
-package semantic.expression;
+package semantic.AST.expression;
 import org.objectweb.asm.Type;
-import semantic.Node;
+import semantic.AST.Node;
 
 
 abstract public class Expression implements Node {
