@@ -1,7 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="127b0ebe-1634-45e6-8677-233efcd82737" name="Default Changelist" comment="" />
+    <list default="true" id="127b0ebe-1634-45e6-8677-233efcd82737" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/lexical/scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/declaration/record/RecordDcl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/declaration/variable/ArrDcl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/declaration/variable/SimpleVarDcl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/declaration/variable/VarDCL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/Len.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/Sizeof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/BinaryExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/arithmetic/Minus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/arithmetic/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/arithmetic/Remainder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/arithmetic/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/conditional/And.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/conditional/BiggerEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/constant/DoubleConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/constant/FloatConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/unary/BitwiseNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/unary/Cast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/unary/Negative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/unary/Not.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/unary/PostMM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/unary/PostPP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/unary/PreMM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/unary/PrePP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/unary/UnaryExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/variable/ArrayVar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/variable/RecordVar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/variable/SimpleVar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/Break.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/Condition/Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/Condition/If.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/Condition/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/Continue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/Println.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/Statement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/assignment/Assign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/assignment/Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/assignment/DivAssign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/assignment/MinAssign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/assignment/MulAssign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/assignment/RmnAssign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/assignment/SumAssign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/loop/For.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/loop/InitExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/loop/Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/loop/Repeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/loop/StepExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/symbolTable/DSCPs/DSCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/symbolTable/SymbolTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/semantic/symbolTable/SymbolTableHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/syntax/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/syntax/table.npt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lexical/2.jflex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/lexical/scanner.flex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lexical/MySymbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/lexical/MySymbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lexical/Scanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lexical/jflex-full-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/block/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/block/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/block/GlobalBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/block/GlobalBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/declaration/Declaration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/declaration/Declaration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/declaration/function/FunctionDcl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/declaration/function/FunctionDcl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/BaseExp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/FuncCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/FuncCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/arithmetic/AppendString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/arithmetic/Divide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/arithmetic/Divide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/arithmetic/Minus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/arithmetic/Multiply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/arithmetic/Remainder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/arithmetic/Sum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/conditional/And.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/conditional/AndBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/conditional/AndBit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/conditional/BiggerEqual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/conditional/BiggerThan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/conditional/BiggerThan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/conditional/CondExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/conditional/CondExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/conditional/Equal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/conditional/Equal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/conditional/LessEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/conditional/LessEqual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/conditional/LessThan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/conditional/LessThan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/conditional/NotEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/conditional/NotEqual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/conditional/OR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/conditional/OR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/conditional/ORBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/conditional/ORBit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/conditional/XORBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/binary/conditional/XORBit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/constant/BooleanConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/constant/BooleanConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/constant/CharConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/constant/CharConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/constant/ConstantExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/constant/ConstantExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/constant/DoubleConst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/constant/FloatConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/loop/Foreach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/constant/IntConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/constant/IntegerConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/constant/LongConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/constant/LongConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/constant/StringConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/constant/StringConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/expression/variable/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/expression/variable/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/statement/FuncReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/AST/statement/FuncReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/statement/Statement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/statement/assignment/Assign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/AST/statement/assignment/Assignment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/DSCPs/DSCP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/DSCPs/GlobalArrDSCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/symbolTable/DSCPs/GlobalArrDSCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/DSCPs/GlobalDSCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/symbolTable/DSCPs/GlobalDSCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/DSCPs/GlobalVarDSCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/symbolTable/DSCPs/GlobalVarDSCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/DSCPs/LocalArrDSCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/symbolTable/DSCPs/LocalArrDSCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/DSCPs/LocalDSCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/symbolTable/DSCPs/LocalDSCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/DSCPs/LocalVarDSCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/symbolTable/DSCPs/LocalVarDSCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/SemanticStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/SemanticStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/symbolTable/Scop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/semantic/symbolTable/Scope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/symbolTable/SymbolTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/semantic/symbolTable/SymbolTableHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/syntax/Lexical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/syntax/Lexical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/syntax/Parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/syntax/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/syntax/table.npt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/semantic/CodeGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/semantic/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/semantic/expression/BaseExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/semantic/expression/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/semantic/expression/arithmetic/Multiply.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,95 +136,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/semantic/DSCPs/LocalArrDSCP.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="240">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/src/syntax/table.npt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/src/lexical/MySymbol.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/src/semantic/CodeGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2920">
+              <caret line="170" column="6" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/semantic/DSCPs/GlobalArrDSCP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="28" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/semantic/DSCPs/GlobalVarDSCP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="17" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/semantic/DSCPs/LocalDSCP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lexical/MySymbol.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lexical/Scanner.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/src/semantic/SemanticStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-882">
-              <caret line="991" column="55" lean-forward="true" selection-start-line="991" selection-start-column="55" selection-end-line="991" selection-end-column="55" />
+            <state relative-caret-position="80">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/semantic/DSCPs/GlobalDSCP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/semantic/DSCPs/LocalVarDSCP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="18" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/syntax/table.npt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -110,57 +185,92 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>records</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/semantic/CodeGenerator" />
-        <option value="$PROJECT_DIR$/src/main/java/syntax/lexical.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lexical/Scanner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lexical/scanner.jflex" />
-        <option value="$PROJECT_DIR$/src/main/java/syntax/parser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/syntax/Parser/Action.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/expression/base_expression.java" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/arithmetic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/arithmetic/Remainder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/arithmetic/Multiply.java" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/expression/Base_Expression.java" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/expression/arithmetic/Multiply.java" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/expression/Expression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/declaration/Declaration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/block/Block.java" />
+        <option value="$PROJECT_DIR$/src/main/java/syntax/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/statement/Condition/If.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/binary/conditional/CondExp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/syntax/CodeGen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/binary/conditional/NotEqual.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/constant/ConstantExp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/statement/Statement.java" />
         <option value="$PROJECT_DIR$/src/main/java/semantic/CodeGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/SemanticStack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/syntax/Parser/parser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/syntax/Parser/Parser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/DSCPs/DSCP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/DSCPs/GlobalArrDSCP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/DSCPs/GlobalVarDSCP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/DSCPs/LocalVarDSCP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/semantic/DSCPs/LocalArrDSCP.java" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.805/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lexical/Scanner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lexical/4_5794350974717921231.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/statement/loop/Loop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/declaration/variable/ArrDcl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/statement/loop/Repeat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/declaration/variable/VarDCL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/unary/PrePP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/variable/Variable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/unary/PostPP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/binary/conditional/XORBit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/variable/SimpleVar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/declaration/record/RecordDcl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/declaration/variable/SimpleVarDcl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/symbolTable/SymbolTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/binary/conditional/And.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/binary/conditional/AndBit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/binary/conditional/BiggerEqual.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/binary/conditional/BiggerThan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/binary/conditional/Equal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/FuncCall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/variable/RecordVar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/Input.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/statement/assignment/Assign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/statement/loop/Foreach.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/statement/loop/StepExp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/statement/Println.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/symbolTable/DSCPs/LocalArrDSCP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/statement/Condition/Case.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/statement/Condition/Switch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/declaration/function/FunctionDcl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/symbolTable/SymbolTableHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/statement/FuncReturn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/unary/BitwiseNot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/unary/PreMM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/unary/UnaryExp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/semantic/AST/expression/unary/PostMM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/src/ir/ac/sbu/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/src/ir/ac/sbu/semantic/AST/expression/binary/arithmetic/Multiply.java" />
+        <option value="$PROJECT_DIR$/src/main/java/src/ir/ac/sbu/semantic/CodeGenerator.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="5" />
-    <option name="width" value="1598" />
+    <option name="width" value="1600" />
     <option name="height" value="1015" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,31 +289,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="simple_compiler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple_compiler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple_compiler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple_compiler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lexical" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594471225871" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595165433927" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -211,14 +305,23 @@
     <property name="settings.editor.splitter.proportion" value="0.21564694" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="semantic" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="semantic.AST.expression.variable" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\University\term4\Compiler\simple_compiler\src\main\java\Lexical" />
-      <recent name="E:\University\term4\Compiler\simple_compiler\src\main\java\semantic" />
-      <recent name="E:\University\term4\Compiler\simple_compiler\src\main\java\syntax" />
       <recent name="E:\University\term4\Compiler\simple_compiler\src\main\java" />
+      <recent name="E:\University\term4\Compiler\simple_compiler\src\main\java\syntax" />
+      <recent name="E:\University\term4\Compiler\simple_compiler\src\main\java\semantic" />
+      <recent name="E:\University\term4\Compiler\simple_compiler\src\main\java\semantic\AST\statement\assignment" />
+      <recent name="E:\University\term4\Compiler\simple_compiler\src\main\java\semantic\AST\expression" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="semantic" />
+      <recent name="semantic.expression.conditional" />
+      <recent name="semantic.expression.arithmetic" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\University\term4\Compiler\simple_compiler\src\main\java\syntax" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -263,7 +366,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="821" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24295302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -277,7 +380,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3280116" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3352685" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3280116" />
@@ -292,184 +395,83 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/CodeGenerator" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/syntax/parser.java" />
-    <entry file="file://$USER_HOME$/Desktop/j.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/declaration/variable/SimpleVarDcl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/symbolTable/SymbolTable.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/binary/conditional/BiggerEqual.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/binary/conditional/Equal.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/binary/conditional/BiggerThan.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/binary/conditional/AndBit.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/binary/conditional/And.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/variable/RecordVar.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/variable/Variable.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/Expression.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/FuncCall.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/Input.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/assignment/Assign.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/assignment/Assignment.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/assignment/DivAssign.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/assignment/MinAssign.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/assignment/MulAssign.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/assignment/RmnAssign.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/assignment/SumAssign.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/Condition/If.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/loop/Foreach.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/loop/StepExp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/Statement.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.870/SemanticStack.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.949/SymbolTableHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/Condition/Case.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/Condition/Switch.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/declaration/function/FunctionDcl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/symbolTable/DSCPs/LocalArrDSCP.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/FuncReturn.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/statement/Println.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/unary/BitwiseNot.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/unary/PrePP.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/unary/PreMM.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/unary/UnaryExp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/AST/expression/unary/PostMM.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/symbolTable/SymbolTableHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/src/ir/ac/sbu/syntax/table.npt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/sbu/syntax/table.npt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/ac/sbu/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/src/ir/ac/sbu/lexical/MySymbol.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/src/ir/ac/sbu/semantic/AST/Operation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/src/ir/ac/sbu/semantic/AST/expression/binary/arithmetic/Multiply.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/src/ir/ac/sbu/syntax/Parser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/src/ir/ac/sbu/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/src/ir/ac/sbu/semantic/CodeGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/src/syntax/table.npt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lexical/MySymbol.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/syntax/Lexical.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lexical/scanner.jflex" />
-    <entry file="file://$PROJECT_DIR$/../Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/arithmetic.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/arithmetic/Divide.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/arithmetic/Minus.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/arithmetic/Remainder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/arithmetic/Sum.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/syntax/Parser/Action.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/CodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/expression/arithmetic/Multiply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/expression/BaseExp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/src/lexical/MySymbol.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/SemanticStack.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/src/semantic/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2920">
+          <caret line="170" column="6" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/src/semantic/SemanticStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/expression/Expression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/syntax/Parser/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Action#0" />
-            <element signature="method#Parser#0;class#Parser#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/DSCPs/DSCP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/DSCPs/LocalArrDSCP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/DSCPs/GlobalArrDSCP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="28" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/DSCPs/GlobalVarDSCP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/DSCPs/GlobalDSCP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/DSCPs/LocalVarDSCP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/syntax/table.npt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/semantic/DSCPs/LocalDSCP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lexical/MySymbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lexical/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882">
-          <caret line="991" column="55" lean-forward="true" selection-start-line="991" selection-start-column="55" selection-end-line="991" selection-end-column="55" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
